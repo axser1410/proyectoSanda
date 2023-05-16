@@ -1,0 +1,50 @@
+body {
+    background-color: aqua;
+}
+
+#botones{
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#botonuno{
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#botonsecunadario{
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#registro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#primeraPantalla{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+    border: solid 5px rgb(151, 139, 139);
+    border-radius: 10px;
+}
