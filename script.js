@@ -47,6 +47,15 @@ function revisarboton(){
     
 }
 
+function pagina(){
+    primeraPantalla.style.display = "block"
+    segundaPantalla.style.display = "none"
+}
+function iniciarPag(){
+    revisarboton()
+    pagina()
+}
+
 function borraruno(){
     jueces.length = jueces.length-1
     console.log(jueces);
@@ -60,7 +69,7 @@ document.addEventListener("keydown", function(event){
     }
 })
 
-window.addEventListener("load", revisarboton())
+window.addEventListener("load",iniciarPag() )
 
 
 
